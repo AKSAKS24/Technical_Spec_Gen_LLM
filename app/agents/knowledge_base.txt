@@ -57,7 +57,7 @@ prompt: Present the results strictly as a table with the columns: Block Name, Ty
 #Detailed Logic Block Descriptions
 type: text
 description: Pseudo-code style, step-by-step breakdown for each major logic block, strictly reflecting the code as written—no generalizations or assumptions beyond what is present in the ABAP source.
-prompt: Carefully analyze the provided payload ( pgm_name , type, explanation of each perform/method). For each major logic block (such as methods, forms, subroutines, or event handlers) as identified in the provided payload explanation, generate a pseudo-code representation that follows the implemented logic exactly as written. Present each block as a clear, concise, step-by-step or numbered-point pseudo-code sequence, including only those operations, decisions, and steps that are explicitly present in payload explanation. Do not include any inferred, generic, or typical ABAP behaviors beyond the provided payload.
+prompt: Do not generate Technical Code, instead numbered-point format narrative explanation of each block.Carefully analyze the provided payload ( pgm_name , type, explanation of each perform/method). For each major logic block (such as methods, forms, subroutines, or event handlers) as identified in the provided payload explanation, generate a pseudo-code representation in narrative numnered format that follows the implemented logic exactly as written. Present each block as a clear, concise, step-by-step or numbered-point pseudo-code sequence, including only those operations, decisions, and steps that are explicitly present in payload explanation. Do not include any inferred, generic, or typical ABAP behaviors beyond the provided payload.
 
 #Output Details
 type: table
